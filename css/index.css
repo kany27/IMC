@@ -27,17 +27,6 @@ header .container:before{
 	vertical-align:	middle;
 }
 
-.container{
-	width: 60%;
-	height: 100%;
-	margin: 0 auto;
-}
-
-section{
-	margin: 2em 0;
-	overflow: hidden;
-}
-
 section h2{
 	font-size: 3em;
 	display: block;
@@ -57,51 +46,6 @@ thead {
 	font-weight: bold;
 }
 
-label{
-	color: #555;
-	display: block;
-	margin-bottom: .2em;
-}
-
-.campo{
-	margin: 0;
-	padding-bottom: 1em;
-	width: 100%;
-	border: 1px solid #ccc;
-	padding: .7em;
-	width: 100%;
-}
-
-.campo-medio{
-	display: inline-block;
-	padding-right: .5em;
-}
-
-.grupo{
-	width: 32%;
-	display: inline-block;
-	padding: 10px 0px;
-}
-
-.inputs {
-	display: flex;
-	justify-content: center;
-	padding: 10px;
-}
-
-label {
-	font-weight: bold;
-}
-
-input {
-	border: #555;
-	width: 60%;
-	border-radius: 1.5px;
-	background: #eee;
-	height: 120%;
-	padding: 1.5px;
-}
-
 button {
 	margin-top: 20px !important;
 	width: 300px;
@@ -112,25 +56,4 @@ button:hover {
 	color: #0c8cd3;
 	transition: .2s;
 	box-shadow: 0 0 8px #555;
-}
-
-.adicionar-paciente{
-    margin-top: 30px;
-}
-
-.campo-invalido{
-	border: 1px solid red;
-}
-/*classes validação*/
-
-.pacienteAbaixo, .pacienteSobre {
-	color: red;
-}
-
-.pacienteNormal {
-	color: #000;
-}
-
-.pacienteAcima {
-	color: yellow;
 }
